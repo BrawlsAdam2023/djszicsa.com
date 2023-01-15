@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DJ SZICSA | Retro DJ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="dj_szicsa_profilkep.jpg" class="dj_szicsa_profilkep">
+        <header>
+            <a href="#" class="logo">DJ SZICSA</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active">Kezdőlap</a></li>
+                <li><a href="#" style="--i:2;">Rólam</a></li>
+                <li><a href="#" style="--i:3;">Hírek</a></li>
+                <li><a href="#" style="--i:4;">Blog</a></li>
+                <li><a href="#" style="--i:5;">Kontakt</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+           <div class="textBox">
+            <h2>DJ SZICSA:</h2>
+           <p>Szabadidőmben DJ vagyok, a Magyar Lemezlovas Egyesület a DJ Szövetség tagjaként, és a Magyar Hangfelvétel-kiadók Szövetsége Közös Jogkezelő Egyesület (MAHASZ) által kiadott szerzői jogi törvény előírásának megfelelően tevékenykedem.</p>
+           <a href="#">Olvasd Tovább</a>
+           </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#" style="--i:12;"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#" style="--i:13;"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#" style="--i:14;"><img src="instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+           menuToggle.classList.toggle('active');
+           navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
